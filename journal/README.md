@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-08-10 — Writing Ansible Roles for an Ubuntu Server Baseline
+
+Restructured the Ansible repository for a second fleet — fleet-prefixed roles, lab facts as a single source, one bootstrap play — and wrote all eight Ubuntu baseline roles, proven idempotent on a disposable test VM: changed=0 across the full play.
+
+More details: https://eugeneivanov.dev/journal/labnotes/ubuntu-baseline-ansible-roles/
+
+---
+
 ## 2026-08-03 — Auditing the Ubuntu Fleet Before Ansible Touches It
 
 A read-only audit of all seven live Ubuntu VMs before writing their baseline roles: the core standard held, but cloud-init had silently re-opened password SSH on every host, unattended-upgrades was patching the fleet daily, and the monitoring host ran with its firewall off.
