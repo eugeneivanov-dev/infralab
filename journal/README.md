@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-08-11 — Proving an Ansible Baseline on a Clean Ubuntu VM
+
+Took a fresh Ubuntu Server 24.04 VM from installer defaults to the full lab standard in one playbook run — after the clean path caught a real bug the incremental path never could: a hot socket-to-service sshd transition, fixed through a public issue cycle and verified in battle on a host with three weeks of manual history.
+
+More details: https://eugeneivanov.dev/journal/labnotes/ubuntu-baseline-clean-vm-proof/
+
+---
+
 ## 2026-08-10 — Writing Ansible Roles for an Ubuntu Server Baseline
 
 Restructured the Ansible repository for a second fleet — fleet-prefixed roles, lab facts as a single source, one bootstrap play — and wrote all eight Ubuntu baseline roles, proven idempotent on a disposable test VM: changed=0 across the full play.
