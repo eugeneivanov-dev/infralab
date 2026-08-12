@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-08-12 — Adopting a Live Ubuntu Fleet with Ansible
+
+Brought seven running Ubuntu hosts from hand-built state to the Ansible baseline: a variable contract fixed before its first consumer, two role fixes from the first live host, the monitoring host taken apart and adopted last with its Docker bridge named as a firewall consumer — closing the project with changed=0 across twelve hosts of both fleets.
+
+More details: https://eugeneivanov.dev/journal/labnotes/ubuntu-baseline-live-fleet-adoption/
+
+---
+
 ## 2026-08-11 — Proving an Ansible Baseline on a Clean Ubuntu VM
 
 Took a fresh Ubuntu Server 24.04 VM from installer defaults to the full lab standard in one playbook run — after the clean path caught a real bug the incremental path never could: a hot socket-to-service sshd transition, fixed through a public issue cycle and verified in battle on a host with three weeks of manual history.
