@@ -1,8 +1,8 @@
 [![eugeneivanov.dev — Infrastructure Engineering](assets/eugeneivanov-dev-logo_1280.webp)](https://eugeneivanov.dev)
 
-# Home Infrastructure Lab — Engineering Journal
+# Infrastructure Lab — Engineering Journal
 
-The working record of a real home infrastructure lab — implementation logs, troubleshooting cases, and technical decisions captured during actual work. The polished version of the journal is published on [eugeneivanov.dev](https://eugeneivanov.dev); this repository is the raw record.
+The working record of a permanent infrastructure lab — implementation logs, troubleshooting cases, and technical decisions captured during actual work. The polished version of the journal is published on [eugeneivanov.dev](https://eugeneivanov.dev); this repository is the raw record.
 
 ---
 
@@ -46,5 +46,5 @@ Physical build of the infrastructure rack.
 ## Links
 
 - **Website:** [eugeneivanov.dev](https://eugeneivanov.dev)
-- **Roadmap:** [eugeneivanov.dev/roadmap](https://eugeneivanov.dev/roadmap)
+- **Practice:** [proveninfra.com](https://proveninfra.com)
 - **LinkedIn:** [linkedin.com/in/eugeneivanov-dev](https://www.linkedin.com/in/eugeneivanov-dev)
