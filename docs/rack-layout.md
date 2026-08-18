@@ -1,11 +1,11 @@
 # Rack Layout
 
-Current homelab rack configuration.
+Current lab rack configuration.
 
 ## Top to Bottom Layout
 
 1U Patch Panel  
-Structured cabling termination for home network.
+Structured cabling termination.
 
 1U UniFi Switch  
 Main network switch connecting internal devices.
@@ -23,7 +23,7 @@ Rack power distribution.
 Used for airflow control.
 
 Shelf (Lab Compute Area)  
-Reserved space for future lab nodes.
+2 × Dell Pro Micro Plus — Proxmox VE cluster nodes.
 
 2U Synology RS1221+  
 Primary storage server used for lab services and backups.
@@ -39,5 +39,3 @@ The rack is organized to separate:
 - Power distribution
 - Compute resources
 - Storage
-
-This layout also allows future expansion of lab compute nodes.
