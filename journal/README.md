@@ -4,6 +4,14 @@ Short notes about infrastructure work, lab experiments, and physical network set
 
 ---
 
+## 2026-08-19 — Hugo on Cloudways: CI/CD with GitHub Actions
+
+Replaced the manual SFTP deploy of this site with a push-triggered pipeline: GitHub Actions builds Hugo with a pinned, checksum-verified binary, ships the output over rsync with a pinned host key, and purges the Varnish cache through a scoped Cloudways API token.
+
+More details: https://eugeneivanov.dev/journal/linux/hugo-cloudways-cicd-github-actions/
+
+---
+
 ## 2026-08-12 — Adopting a Live Ubuntu Fleet with Ansible
 
 Brought seven running Ubuntu hosts from hand-built state to the Ansible baseline: a variable contract fixed before its first consumer, two role fixes from the first live host, the monitoring host taken apart and adopted last with its Docker bridge named as a firewall consumer — closing the project with changed=0 across twelve hosts of both fleets.
