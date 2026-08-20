@@ -24,9 +24,6 @@ Full environment: [eugeneivanov.dev/infra](https://eugeneivanov.dev/infra)
 ## Documentation
 
 - [Rack Layout](docs/rack-layout.md)
-- [Network Infrastructure](docs/network.md)
-- [Infrastructure Services](docs/services.md)
-- [Rack layout diagram](docs/rack-diagram.png)
 - [Network topology](docs/network-topology.svg)
 
 ---
